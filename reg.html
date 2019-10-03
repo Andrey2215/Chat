@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Регистрация</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="cssreg.css">
+
+</head>
+<body>
+<div class="mainHelloHead">SWEET HOME</div>
+<div class="mainDivLog">
+<form action="save_user.php" method="post" enctype="multipart/form-data">
+  <p>
+    <label>Ваш логин *:<br></label>
+    <input name="login" type="text" size="15" maxlength="15">
+  </p> 
+  <p>
+    <label>Ваш пароль *:<br></label>
+    <input name="password" type="password" size="15" maxlength="15">
+  </p>
+  <p>
+    <label>Ваш E-mail *:<br></label>
+    <input name="email" type="text" size="15" maxlength="100">
+  </p>
+    <p>
+    <label>Ваш личный счёт квартиры*:<br></label>
+    <input name="numls" type="text" size="15" maxlength="11">
+  </p>
+  <p>
+    <label>Выберите аватар. Изображение должно быть формата jpg, gif или png:<br></label>
+    <input type="FILE" class="butv" name="fupload">
+  </p>
+<p>
+<input class="butv" type="submit" name="submit" value="Зарегистрироваться">
+</p></form>
+</div>
+<div class="mainbottom"><span>Звездочками (*) обозначены поля, обязательные для заполнения.</span></div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body{
+	margin:0;
+	background:linear-gradient(to bottom, #f9f2d7, #d2e5f5);
+}
+.mainHelloHead{
+	background:#6f9ad4;
+	border-radius:0 0 20px 20px;
+	width:1100px;
+	height:150px;
+	min-height:150px;
+	font-size:64px;
+	color:#d2e5f5;
+	line-height:150px;
+	vertical-align:middle;
+	text-align:center;
+	margin:0 auto;
+	border-bottom:5px solid #754e46;
+}
+.mainDivLog{
+	width:400px;
+	height:350px;
+	min-height:320px;
+	background:#6f9ad4;
+	margin:150px auto;
+	font-size:20px;
+	border-radius:60px;
+	border-bottom:5px solid #754e46;
+	border-top:5px solid #754e46;
+}
+.mainbottom{
+	width:1100px;
+	height:149px;
+	background:#6f9ad4;
+	margin:0 auto;
+	border-radius:20px 20px 0 0;
+	border-top:5px solid #754e46;
+	text-align:center;
+}
+.mes{
+	text-align:center;
+	margin-top:50px;
+	font-size:24px;
+}
+.mes a{
+	text-decoration:none;
+}
